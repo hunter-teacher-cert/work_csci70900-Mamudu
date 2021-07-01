@@ -6,6 +6,12 @@ public class Method {
 
 	public static boolean isDivisible(int n, int m){
     
+    Scanner input = new Scanner(System.in);
+    System.out.println("Enter the value of n: ");
+    System.out.println("Enter the value of m: ");
+    
+    
+
 		if(n%m==0){
 			return true;
 		}else{
