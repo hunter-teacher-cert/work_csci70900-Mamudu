@@ -11,10 +11,11 @@ import java.util.*;
    * Every cell with <2 neighbours will die from isolation.
    Birth:
    * Each dead cell adjacent to exactly 3 living neighbours is a birth cell. It will come alive next generation.
+
    NOTA BENE:  All births and deaths occur simultaneously. Together, they constitute a single generation
 */
 
-public class Cgol1
+public class Cgal
 {
 
   //initialize empty board (all cells dead)
@@ -146,24 +147,39 @@ public class Cgol1
     //breathe life into some cells:
     setCell(board, 0, 0, 'X');
     setCell(board, 0, 1, 'X');
-    setCell(board, 1, 0, 'X');
+    setCell(board, 15, 16, 'X');
+    setCell(board, 16, 16, 'X');
+    setCell(board, 17, 16, 'X');
+    setCell(board, 15, 17, 'X');
+    setCell(board, 16,17 , 'X');
+    setCell(board, 17, 17, 'X');
+    setCell(board, 17, 18, 'X');
 
     // TASK:
     // Once your initial version is running,
     // try out different starting configurations of living cells...
     // (Feel free to comment out the above three lines.)
 
-    System.out.println("Gen X:");
-    printBoard(board);
-    System.out.println("--------------------------\n\n");
-
-    board = generateNextBoard(board);
-
-    System.out.println("Gen X+1:");
-    printBoard(board);
-    System.out.println("--------------------------\n\n");
+    //System.out.println("Gen X:");
+     for (int frame = 0; frame < 20; frame++)
+      {
+        System.out.print("[0;0H\n");
+         printBoard(board);
+         //System.out.println("--------------------------\n\n");
+        delay(1000);
+        board = generateNextBoard(board);
+        //System.out.println("Gen X+1:");
+       // printBoard(board);
+      }
+       //System.out.println("--------------------------\n\n");
 	/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
   }//end main()
+ public static void delay(int n) {
+    try {
+      Thread.sleep(n);
+    }
+    catch(InterruptedException e) {}
+  }
 
 }//end class
