@@ -27,7 +27,7 @@ Part 3:
 2. Uncomment the lines in sortDemoDriver to test.
 
 */
-
+// part 1
 public class SortDemoT{
 
   /* Instance Variables */
@@ -65,6 +65,7 @@ public class SortDemoT{
   6 which is the index with the smallest value from start to end
 
   */
+  // part 2
   public int findSmallestIndex(int start){
     int smallIndex = start;
 

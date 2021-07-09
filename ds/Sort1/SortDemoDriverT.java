@@ -8,10 +8,10 @@ import java.util.*;
 public class SortDemoDriverT {
   public static void main(String[] args) {
 
-    SortDemo sd = new SortDemo(); // default size: 15
+    SortDemoT sd = new SortDemoT(); // default size: 15
     System.out.println(sd);
 
-    SortDemo sd2 = new SortDemo(20);
+    SortDemoT sd2 = new SortDemoT(20);
     System.out.println(sd2);
 
     /* part 2 test lines */
