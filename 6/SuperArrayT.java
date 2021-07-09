@@ -30,14 +30,14 @@ public class SuperArrayT
 
   // ~~~~~~~~~~~~~~~ CONSTRUCTORS ~~~~~~~~~~~~~~~
   //overloaded constructor -- allows specification of initial capacity
-  public SuperArray( int size )
+  public SuperArrayT( int size )
   { this.data = new int[size];
     this.numberElements = 0;
 
   }
 
   //default constructor -- initializes capacity to 10
-  public SuperArray()
+  public SuperArrayT()
   { this.data = new int[10];
     this.numberElements = 0;
 

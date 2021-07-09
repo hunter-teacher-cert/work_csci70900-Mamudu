@@ -7,7 +7,7 @@ public class SuperArrayDriverT
   {
 
     System.out.println("Testing default constructor.");
-    SuperArray sa = new SuperArray();
+    SuperArrayT sa = new SuperArrayT();
 
     System.out.println("Testing empty print:");
     System.out.println(sa);
