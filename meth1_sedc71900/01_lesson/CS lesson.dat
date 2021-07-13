@@ -26,6 +26,65 @@ Components:
 4. Coding Activities (2) - 20 minutes
 5. Exit Ticket: 5 minutes
 
+Actual Lesson
+
+One-Dimensional
+Arrays
+
+Learning Objectives
+● Learn what an array data type is, and how to declare and
+initialize an array
+● Learn how to extract and edit data which is contained in an
+array
+● Understand how array elements are indexed
+AP COMPUTER SCIENCE A | UNIT 6
+In Java, an object is a variable of a class type.
+It can hold lots of data and has methods.
+It is different than a primitive type.
+
+An array is an object that holds more than one
+thing in memory.
+All items in the array are the same data type.
+Arrays can hold primitive types or class types.
+
+Arrays are Objects
+
+int [] list = new int[7];
+This creates an array called list of 7 integers.
+Use the new command - this is what stores the
+reference to where data is in memory.
+
+element - The box of the array. Each box holds a
+value. All values are the same data type.
+index - The address of the elements. Starts at 0 and
+ends at (length -1).
+initialize - Stores known values in an array.
+
+Vocabulary
+int[] list = new int[7];
+Why does it stop at 6 if there are 7 boxes?
+Index start at 0 and go to (length -1)
+0 1 2 3 4 5 6
+
+To Create:
+14 -10 1 0 9 -7 3
+0 1 2 3 4 5 6
+list[4]++;
+list[0] = list[1] + 2;
+list[6] = list[6] *4;
+
+Example:
+int [] list = {14, -10, 1, 0, 9, -7, 3};
+Java sets the size based on the number of elements
+given.
+Automatically sets the values in an array.
+
+Initializer lists
+Declare an array of ten ints with the values 0 - 9 in order.
+Test your array by printing out the numbers 0, 5, and 9.
+Lesson 1: One-Dimensional Arrays
+Try it yourself
+
 /*What to Emphasize:
 Arrays in Java store multiple elements of the same data type in a fixed order indexed starting from 0. The data type stored can be anything as long as it is the same for the whole array.
 */
