@@ -15,6 +15,30 @@
         "version": 7,
         "index": 290
       }
+    ],
+    "meth1_sedc71900/01_lesson/CS lesson.dat": [
+      {
+        "id": "155f5667-6124-4aec-a3f9-848baa39d75d",
+        "line": 84,
+        "version": 1046,
+        "index": 2683
+      }
+    ],
+    "meth1_sedc71900/01_lesson/CS livecode.dat": [
+      {
+        "id": "376d8468-0b2d-49f5-9661-3667ef1870c5",
+        "line": 7,
+        "version": 700,
+        "index": 320
+      }
+    ],
+    "meth1_sedc71900/02_livecode/Pair.java": [
+      {
+        "id": "265592d6-1183-4a52-906a-b5763792f5ba",
+        "line": 29,
+        "version": 28,
+        "index": 617
+      }
     ]
   }
 }

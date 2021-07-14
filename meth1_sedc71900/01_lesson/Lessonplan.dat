@@ -1,3 +1,4 @@
+#####################################################
 Create a lesson plan for a concept covered in the pre-work or the first programming course in this program (not data structures).
 This should be a lesson plan for a High School class, ~45 miutes in length.
 Assume the appropriate level of prior knowledge.
@@ -5,6 +6,7 @@ You need not create supplemental materials like sample code, assignments, etc.
 You could use the template found here, but you do not need to, or you cna modify it.
 Use whatever file format that is more convenient for you, but name the file 01_lesson and put it in your meth1 folder.
 
+#########################################################3
 //Start of Lesson plan
 Topic: One-Dimensional Arrays
 
@@ -27,6 +29,7 @@ Components:
 4. Coding Activities (2) - 20 minutes
 5. Exit Ticket: 5 minutes
 
+#################################################
 Actual Lesson
 
 One-Dimensional
@@ -77,9 +80,8 @@ Automatically sets the values in an array.
 Classwork //Try it yourself // Code Practice
 Declare an array of ten ints with the values 0 - 9 in order.
 Test your array by printing out the numbers 0, 5, and 9.
-Lesson 1: One-Dimensional Arrays
 
-
+##############################################
 */
 What to Emphasize:
 Arrays in Java store multiple elements of the same data type in a fixed order indexed starting from 0. The data type stored can be anything as long as it is the same for the whole array.
