@@ -17,7 +17,7 @@ I would ask the students to explore netlogo on their own (small groups) before t
 Then the class will convene as one whole class and the student discuss what they observe during the exploration while I (the teacher) acts as a facilitator.
 
 ***Why would you choose to do things that way?***
-NetLogo is a programmable modeling environment for simulating natural and social phenomena. It was authored by Uri Wilensky in 1999 and has been in continuous development ever since at the Center for Connected Learning and Computer-Based Modeling.
+NetLogo is a programmable modeling environment for simulating natural and social phenomena. It was authored by Uri Wilensky in 1999 and has been in continuous development ever since at the Center for Connected Learning and Computer-Based Modeling. So I want my students to discover stuff in Netlogo that I may not have realized or included in my introduction!!
 
 NetLogo is particularly well suited for modeling complex systems developing over time. Modelers can give instructions to hundreds or thousands of “agents” all operating independently. This makes it possible to explore the connection between the micro-level behavior of individuals and the macro-level patterns that emerge from their interaction.
 
