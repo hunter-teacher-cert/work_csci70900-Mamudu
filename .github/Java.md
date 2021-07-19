@@ -126,7 +126,7 @@ other details (https://github.com/hunter-teacher-cert/pre-work).
    - Standards
      - CT 6,10
 1. July 7
-   - SupperArray review and part 2 discussion
+   - SuperArray review and part 2 discussion
    - lab: SuperArray part 2
    - Assignment: SupperArray enhancements
    - Standards 
