@@ -25,7 +25,7 @@ Part 3:
 
 */
 
-public class SortDemo{
+public class SortDemoZ{
 
     /* Instance Variables */
     private ArrayList<Integer> data;  // to store the data
@@ -33,7 +33,7 @@ public class SortDemo{
     private Random r; 
 
     
-    public SortDemo(){
+    public SortDemoZ(){
 	data = new ArrayList<Integer>();
 	r = new Random();
 	for (int i=0;i<15;i++){
@@ -42,7 +42,7 @@ public class SortDemo{
 	
     }
     
-    public SortDemo(int size){
+    public SortDemoZ(int size){
 	data = new ArrayList<Integer>();
 	r = new Random();
 	for (int i=0;i<size;i++){

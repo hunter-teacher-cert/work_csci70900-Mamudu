@@ -1,10 +1,10 @@
 import java.io.*;
 import java.util.*;
 
-public class SortDemoDriver {
+public class SortDemoDriverZ {
     public static void main(String[] args) {
 
-	SortDemoZ sd = new SortDemo();
+	SortDemoZ sd = new SortDemoZ();
 	/*
 	System.out.println(sd);
 
