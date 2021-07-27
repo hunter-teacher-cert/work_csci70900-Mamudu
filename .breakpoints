@@ -16,6 +16,26 @@
         "index": 290
       }
     ],
+    "ds_csci70300/Trees/BSTree.java": [
+      {
+        "id": "ca0a1d8a-6b0f-446f-9f3f-81a54b27d4a2",
+        "line": 5,
+        "version": 1,
+        "index": 65
+      },
+      {
+        "id": "cc2aee41-f1dc-4267-b8c8-94f2a4f04182",
+        "line": 12,
+        "version": 1,
+        "index": 156
+      },
+      {
+        "id": "4d98150e-30a2-46d0-ad55-2783706a8b65",
+        "line": 14,
+        "version": 1,
+        "index": 170
+      }
+    ],
     "ds_csci70300/lists/DriverZ.java": [
       {
         "id": "6e289f34-24f0-4ebc-8300-b2f257838195",
