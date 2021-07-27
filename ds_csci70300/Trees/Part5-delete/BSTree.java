@@ -8,7 +8,7 @@ public class BSTree {
     root = null;
   }
 
-  // Part 5: Delete statement
+
   public void delete(int key){
 
     // if the tree is empty, nothing to delete
@@ -120,7 +120,7 @@ public class BSTree {
     }
 
   }
-  // Part 4: Traverse
+
   private void preorderTraverse(TreeNode current){
     if(current == null){
       return;
@@ -185,7 +185,7 @@ public class BSTree {
   }
 
 
-  // Part 3: Insert
+
   public void insert(int key){
 
     TreeNode newNode = new TreeNode(key);
@@ -225,7 +225,6 @@ public class BSTree {
     }
   }
 
-  //Part 2: Search
   public int search(int key){
     TreeNode current = root;
 
@@ -242,7 +241,6 @@ public class BSTree {
     throw new NullPointerException();
   }
 
-  // Part 1: The Beginning
   public void seed(){
     TreeNode t;
 
@@ -265,5 +263,3 @@ public class BSTree {
 
 
 }
-
-//ALL PARTS TESTED SUCCESSFULLY

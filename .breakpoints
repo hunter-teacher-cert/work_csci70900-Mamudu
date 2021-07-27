@@ -3,9 +3,9 @@
     "README.org": [
       {
         "id": "329da8d9-1fdd-4e83-bd4d-fdd587034646",
-        "line": 18,
-        "version": 1,
-        "index": 528
+        "line": 17,
+        "version": 3,
+        "index": 445
       }
     ],
     "ds/sort1/SortDemoT1.java": [
@@ -14,6 +14,34 @@
         "line": 19,
         "version": 7,
         "index": 290
+      }
+    ],
+    "ds_csci70300/Trees/BSTree.java": [
+      {
+        "id": "ca0a1d8a-6b0f-446f-9f3f-81a54b27d4a2",
+        "line": 5,
+        "version": 144,
+        "index": 65
+      },
+      {
+        "id": "cc2aee41-f1dc-4267-b8c8-94f2a4f04182",
+        "line": 12,
+        "version": 144,
+        "index": 185
+      },
+      {
+        "id": "4d98150e-30a2-46d0-ad55-2783706a8b65",
+        "line": 14,
+        "version": 144,
+        "index": 199
+      }
+    ],
+    "ds_csci70300/Trees/Part3-insert/BSTree.java": [
+      {
+        "id": "fd3a98e2-a841-419f-82d2-50d62534ae70",
+        "line": 265,
+        "version": 3,
+        "index": 7203
       }
     ],
     "ds_csci70300/lists/DriverZ.java": [
@@ -68,6 +96,14 @@
         "line": 19,
         "version": 1,
         "index": 327
+      }
+    ],
+    "meth1_sedc71900/Wikipedia": [
+      {
+        "id": "c6fabae8-3f35-4352-ada6-0f595710aef0",
+        "line": 24,
+        "version": 262,
+        "index": 755
       }
     ]
   }

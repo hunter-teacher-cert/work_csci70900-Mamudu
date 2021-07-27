@@ -9,12 +9,12 @@ public class Driver {
     t.seed();
     int value;
 
-    // Part 1: testing search
+    // testing search
 
     value = t.search(10);
     System.out.println(value);
 
-    value = t.search(22);
+    value = t.search(15);
     System.out.println(value);
 
     try {
@@ -24,7 +24,7 @@ public class Driver {
       System.out.println("17 not in tree");
     }
 
-    // Part 3: testing insert
+    // testing insert
 
     try {
       value = t.search(13);
@@ -36,32 +36,12 @@ public class Driver {
     t.insert(13);
     System.out.println(t.search(13));
 
-    // Part 4: testing traverse
+    // testing traverse
 
     t.preorderTraverse();
     t.postorderTraverse();
     t.inorderTraverse();
-
-    // Part 5: testing delete
-    t.delete(2);
-    System.out.println("Deleting 2 (not present)");
-    t.inorderTraverse();
-
-    // case 1: leaf
-    System.out.println("Deleting 22");
-    t.delete(22);
-
-    // case 2: one child
-    System.out.println("Deleting 15");
-    t.delete(15);
-
-    // case 3: two children
-    System.out.println("Deleting 10");
-    t.delete(10);
-
-
-    t.inorderTraverse();
-
   }
+
+    
 }
-// ALL PARTS TESTED SUCCESSFULLY
