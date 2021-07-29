@@ -1,3 +1,5 @@
+// I like the visuals in this Mancala
+
 import java.io.*;
 import java.util.*;
 
