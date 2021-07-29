@@ -44,6 +44,26 @@
         "index": 7203
       }
     ],
+    "ds_csci70300/design/DesignChallenge.md": [
+      {
+        "id": "ff6d8346-b07c-4f59-818f-1fd4b7efdbd5",
+        "line": 5,
+        "version": 139,
+        "index": 52
+      },
+      {
+        "id": "0a4a4b69-abf4-4180-9e1e-d5478d68bb26",
+        "line": 6,
+        "version": 139,
+        "index": 177
+      },
+      {
+        "id": "d43deab6-b074-4e28-9f8f-de02c06d582a",
+        "line": 7,
+        "version": 139,
+        "index": 178
+      }
+    ],
     "ds_csci70300/lists/DriverZ.java": [
       {
         "id": "6e289f34-24f0-4ebc-8300-b2f257838195",
