@@ -30,7 +30,7 @@ How will you print Python 10 times?
 Now print Python 10 times.
 
 In Mini Activity #2:
-How many times will the program?
+How many times will the program run?
 How can you end the program?
 Now end the program after 10 number entries.
 

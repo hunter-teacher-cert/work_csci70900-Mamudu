@@ -1,12 +1,12 @@
-# Topic: Two Ways to End a Loop
+# Topic: Two Ways to End a while Loop
 # Introduction
-This lesson introduces two ways to end a loop: 
+This lesson introduces two ways to end a while loop: 
 using a count variable to run a loop a specific number of times, and using user input. 
 
 # Learning Objectives:
 The students will:
 
-Be able to end loops using count variables and user input
+Be able to end while loops using count variables and user input
 
 Be able to state when to use them.
 
