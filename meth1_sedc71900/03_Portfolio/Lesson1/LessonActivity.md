@@ -1,10 +1,10 @@
 # Learning Target:
 I can end a while loop in two (2) ways.
 
-# Warm Up/Do Now
+# Warm Up | Do Now
 Write a program that will print "Python" 7 times.
 
-# Mini Activity #1 | Count Variable
+# Mini Activity #1 | Count Variable:
 
 c = 0
 while (c < 7):
@@ -24,17 +24,18 @@ print("Total: " + str(sum))
 
 The loop will continue summing numbers until the user has entered -1, at which point the loop will end.
 
-# Checking for Understanding
-In Mini Activity #1:
+# Checking for Understanding:
+## In Mini Activity #1:
 How will you print Python 10 times? 
 Now print Python 10 times.
 
-In Mini Activity #2:
+## In Mini Activity #2:
 How many times will the program run?
 How can you end the program?
 Now end the program after 10 number entries.
 
 # Classwork | Pair Programming
+
 ## Groupwork: Code Practice #1 (Coder #1)
 Create a program that prompts the user for how old they are turning and then using a loop, output a virtual hug for every year old they are.
 
