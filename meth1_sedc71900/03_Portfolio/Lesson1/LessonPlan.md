@@ -9,7 +9,7 @@ Students will be able to end while loops using count variables and user input
 
 Students will be able to state when to use them.
 
-# Components: 45 minutes
+# Components: 45 minutes:
 Lesson Warm Up/Do Now (5 minutes)
 
 Mini Activity: Live Coding (10 minutes)
@@ -34,4 +34,4 @@ Just like when using strings in my control expression, or a user input variable,
 A while loop can run an indefinite amount of times by gathering user input or it can run a set amount of times by controlling it with a count variable.
 
 # NYS Learning Standards:
-This lesson adheres to the following NYS K-12 Standards: 9-12.CT.6
+This lesson adheres to the following NYS K-12 Standards: 9-12.CT.10
