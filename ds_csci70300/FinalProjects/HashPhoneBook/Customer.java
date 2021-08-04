@@ -5,12 +5,15 @@ import java.lang.*;
 public class Customer {
 
   //private Customer next;
+  //private LinkedList<Data> customer; 
   private LinkedList<Data> customer; 
+
 
   Data data = new Data();
   // constructor empty
- public Customer() {
-   customer = new LinkedList<Data>();
+  public Customer() {
+    customer = new LinkedList<Data>();
+
   } 
 
       //constructor with value
@@ -45,7 +48,7 @@ public void addIndex(int index, Data d){
   
   public boolean removeCustomer(String s){
     boolean b = false;
-    customer.element();
+    //customer.element();
     for (int i = 0; i < customer.size(); i++) {
       data =  get(i);
 
@@ -67,16 +70,26 @@ public void addIndex(int index, Data d){
   public void clear() {  
     customer.clear();
   }
+  public Iterator iterator(){
+    return customer.iterator();
+  }
+  public Data element(){
+    return customer.element();
+  }
+  public Data peekLast(){
+    return customer.peekLast();
+  }
   
   public  void printCustomer(){
-  customer.element();
+  //customer.element();
   Iterator it = customer.iterator();
     while(it.hasNext()){
        System.out.println(it.next());
     }
   }
   public String toString(){
-    return data.get(1);
+  //return customer.get(0).toString()+ ","+customer.get(1).toString()
+  return customer.get(1).toString();
   }
   public int hashCode(String name) {
     return name.hashCode() % 100;
